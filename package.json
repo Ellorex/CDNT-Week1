@@ -1,0 +1,24 @@
+{
+  "name": "semaine1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellorex/CDNT-Week1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellorex/CDNT-Week1/issues"
+  },
+  "homepage": "https://github.com/Ellorex/CDNT-Week1#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
+}
