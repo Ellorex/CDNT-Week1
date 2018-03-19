@@ -1,0 +1,39 @@
+h2{
+    margin-left: 70px;
+    font-weight: normal;
+}
+
+.displayTest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div{
+        width: 200px;
+        height: 200px;
+        color: $color-text-main;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        &.maDiv-1{
+            background: wheat;
+        }
+        
+        &.maDiv-2{
+            background-color: thistle;
+        }
+        
+        &.maDiv-3{
+            background-color: slategray;
+        }
+    }
+}
+.formTest{
+    input{
+        border: 1px solid gray;
+        @include border-radius(2px);   
+    &hoover{
+        background-color: #d3d3d347;
+    }
+    }
+}
