@@ -1,0 +1,60 @@
+html {
+    background-image: url('bicycles.png'); 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.todosection {
+    width: 40%;
+    margin: 150px auto;
+    padding: 50px;
+    background-color: rgb(7, 7, 7, 0.7);
+    color: white
+}
+h2 {
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.adding {
+    margin-bottom: 50px;
+}
+.adding input {
+    width: 180px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px;
+}
+.adding button {
+    width: 180px;
+    height: 27px;
+    border-radius: 3px;
+    border: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.adding button:hover{
+    border: 1px solid gray;
+}
+#todolist ul {
+    padding: 0;
+}
+#todolist li {
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+#todolist button {
+    width: 130px;
+    height: 27px;
+    position: absolute;
+    right: 82px;
+    border-radius: 3px;
+    border: 1px;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#todolist button:hover{
+    border: 1px solid gray;
+}

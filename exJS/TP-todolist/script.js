@@ -32,7 +32,7 @@ function showTodo() {
 
     var display = '<ul>';
     for(var i=0; i<todolist.length; i++) {
-        display += '<li>' + todolist[i] + '<button class="delete" id="' + i  + '">x</button></li>';
+        display += '<li>' + todolist[i] + ' <button class="delete" id="' + i  + '">Supprimer</button></li>';
     };
     display += '</ul>';
  
