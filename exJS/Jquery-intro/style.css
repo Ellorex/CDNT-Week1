@@ -5,23 +5,23 @@ body {
 
 .calcbloc {
     margin: auto;
+    width: 300px;
     background-color: darkgray;
-    display: table;
+    padding: 20px;
+    border-radius: 30px;
 }
-.calcrow {
-    display: table-row;
-}
-.calccell1 {
-    display: table-cell;
+
+.display {
     border: 4px solid gray;
+    height: 50px;
     background-color: white;
     color: black;
 }
 
-.calccell {
-    display: table-cell;
+.button {
     width: 50px;
     height: 50px;
     border: 4px solid gray;
     background-color: black;
+    display: inline-block;
 }
