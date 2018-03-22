@@ -25,3 +25,6 @@ body {
     background-color: black;
     display: inline-block;
 }
+#ui-datepicker-div {
+    background-color: red;
+}

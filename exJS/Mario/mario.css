@@ -1,0 +1,17 @@
+body {
+    overflow-x: hidden;
+}
+
+img {
+    position: relative;
+    width: 50px;
+    top: 430px;
+}
+.mushroom-kingdom{
+    background:url('mario/img/fond.jpg');
+    background-size: contain;
+    min-width: 6338px;
+    height:550px;  
+    max-width:1500px; 
+    margin:0 auto;
+}
