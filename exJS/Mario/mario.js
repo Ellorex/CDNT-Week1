@@ -28,7 +28,6 @@ $(document).ready(function() {
                     msTransform: 'scaleX(-1)'
                 }); 
             break; 
-
             case 32: 
             $('.mario').attr('src', 'mario/img/mario_jump.png');
             $('.mario').animate({top:["-=120", "swing"],left:["+=60", "swing"]},100);
@@ -60,22 +59,22 @@ $(document).ready(function() {
     });
 });  
 
-
-            // case 38 : 
-            // $('img').attr('src', 'mario/img/mario.gif');
-            // $('img').css({top: '-=20px'}, 'fast');
-            // break;   
-            // case 40 : 
-            // $('img').attr('src', 'mario/img/mario.gif');
-            // $('img').css({top: '+=20px'}, 'fast');
-            // $('img').attr('src', 'mario/img/marios.png');
-            // break;   
+//Keydown
+// case 38 : 
+// $('img').attr('src', 'mario/img/mario.gif');
+// $('img').css({top: '-=20px'}, 'fast');
+// break;   
+// case 40 : 
+// $('img').attr('src', 'mario/img/mario.gif');
+// $('img').css({top: '+=20px'}, 'fast');
+// $('img').attr('src', 'mario/img/marios.png');
+// break;   
             
             
-            
-            // case 38 :
-            // $('img').attr('src', 'mario/img/marios.png');
-            // break;
-            // case 40 :
-            // $('img').attr('src', 'mario/img/marios.png');
-            // break;
+//Keyup        
+// case 38 :
+// $('img').attr('src', 'mario/img/marios.png');
+// break;
+// case 40 :
+// $('img').attr('src', 'mario/img/marios.png');
+// break;
