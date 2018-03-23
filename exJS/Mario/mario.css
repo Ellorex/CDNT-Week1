@@ -2,10 +2,20 @@ body {
     overflow-x: hidden;
 }
 
-img {
+.mario {
     position: relative;
     width: 50px;
     top: 430px;
+}
+.brick1 {
+    position: absolute;
+    top: 386px;
+    left: 500px
+}
+.brick2 {
+    position: absolute;
+    top: 386px;
+    left: 531px
 }
 .mushroom-kingdom{
     background:url('mario/img/fond.jpg');
